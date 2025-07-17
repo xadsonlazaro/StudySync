@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <h1> 📘 FocusFlow </h1> <br>
+        <p> Gerencie suas tarefas com foco total!</p>
+    </header>
+
+    <main>  
+        <section id="pomodoro">
+            <input type="text" id="task-input" placeholder="Digite uma nova Tarefa.."> 
+            <button id="add-task" onclick="Adicionar()"> Adicionar </button>
+
+            <ul id="task-list"></ul>
+
+            <h2> ⏱ Temporizador Pomodoro </h2> 
+            <div id="timer"> 25: 00 </div>
+            <div class="pomodoro-buttons"> 
+                <button id="start"> Iniciar </button>
+                <button id="pause"> pause </button>
+                <button id="reset"> Reset </button>
+            </div>
+        </section>
+    </main> <br>
+    <footer> <br> 
+        &copy; xadson lazaro
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
