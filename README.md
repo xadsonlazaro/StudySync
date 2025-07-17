@@ -1,4 +1,4 @@
-# StudySync
+# Gerenciador de Estudos 🏫
 
 # ⏰ FocusFlow - Temporizador + Lista de Tarefas
 
